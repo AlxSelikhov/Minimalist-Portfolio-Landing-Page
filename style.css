@@ -83,7 +83,8 @@ select {
     padding: 0 15px;
     margin: 0px auto;
     box-sizing: content-box;
-    background-color: aqua;
+    background-color: #FFF7E8;
+
 }
 /* ----------------HEADER------------ */
 .header {
@@ -264,8 +265,6 @@ bottom: 187px;
   width: 530px;
   width: 606px;
 }
-.types__block {
-}
 .services__types__line {
   border: 1px solid #1C4931;
 }
@@ -338,9 +337,6 @@ bottom: 187px;
 .working__process__descriptions {
   display: flex;
   gap: 49px;
-}
-.description_block1 {
-
 }
 .block__main-text {
   font-family: 'Noto Sans';
@@ -439,8 +435,6 @@ bottom: 187px;
   margin: 0 0 20px 0;
   width: 744px;
 }
-.latest__project__page3 {
-}
 .page3__title {
   display: flex;
   margin: 0 0 20px 0;
@@ -448,20 +442,219 @@ bottom: 187px;
 }
 /* social media */
 .block__social-media {
+  display: flex;
+  width: 1071px;
+  background-color: #D85841;
 }
 .social-media__foto {
+  width: 438px;
+  height: 506px;
+  margin: 24px 0 0 0;
 }
 .social-media__text {
+  margin: 0 0 0 92px;
+  display: flex;
+  flex-direction: column;
 }
 .text1 {
+  margin: 78px 92px 22px 0;
+
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 121.7%;
+  /* or 58px */
+
+  letter-spacing: -0.04em;
+
+  color: rgba(255, 255, 255, 0.9);
 }
 .text2 {
+  margin: 0px 92px 6px 0;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.04em;
+  
+  color: rgba(255, 255, 255, 0.8);
+}
+.text2#text-2 {
+  margin: 6px 92px 24px 0;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.04em;
+
+  color: rgba(255, 255, 255, 0.8);
 }
 .text3 {
-}
-.social-media__icon {
+  margin: 0 92px 40px 0;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.04em;
+  text-decoration-line: underline;
+
+  color: rgba(255, 255, 255, 0.8);
 }
 .social-media__icon-foto {
+  width: 159px;
+  height: 24px;
 }
+/* ----------------reviews---------------- */
+.block__review {
+ padding: 134px 0 177px 0;
+}
+.review__text {
+  margin: 0 0 46px 0;
 
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 121.7%;
+  /* or 78px */
+
+  letter-spacing: -0.04em;
+  text-decoration-line: underline;
+
+  color: rgba(0, 0, 0, 0.9);
+}
+.three_blockes {
+  display: flex;
+  gap: 12px;
+}
+.block_yellow {
+  width: 349px;
+  height: 329px;
+  background: #F3B848;
+  border: 3px solid rgba(0, 0, 0, 0.8);
+  border-radius: 11px;
+}
+.review__text_margin {
+  margin: 23px 29px 23px 27px;
+}
+.block_title {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 121.7%;
+  /* or 29px */
+
+  letter-spacing: -0.04em;
+
+  color: #FFFFFF;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.block__review__main-text {
+margin: 24px 0;
+
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 121.7%;
+  letter-spacing: -0.04em;
+
+  color: #FFFFFF;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.block__review-name {
+  font-family: 'Noto Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 121.7%;
+letter-spacing: -0.04em;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.block__stars {
+  width: 120px;
+  height: 24px;
+}
+.block_green {
+  width: 349px;
+  height: 329px;
+  background: #1C4931;
+  border: 3px solid rgba(0, 0, 0, 0.8);
+  border-radius: 11px;
+}
+.block_red {
+  width: 349px;
+  height: 329px;
+  background: #D85841;
+border: 3px solid rgba(0, 0, 0, 0.8);
+border-radius: 11px;
+}
+/* ----------------working together------------ */
+.block__working {
+  width: 1070px;
+  height: 337px;
+
+  background: #1C4931;
+}
+.working__main {
+  display: flex;
+  flex-direction: column;
+
+}
+.working__text {
+  margin: 63px 298px 42px 326px;
+
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 121.7%;
+  /* or 58px */
+
+  text-align: center;
+  letter-spacing: -0.04em;
+
+  color: rgba(255, 255, 255, 0.9);
+}
+.working__button {
+  margin: 0 461px 0 434px;
+}
 /* ----------------FOOTER------------ */
+footer {
+  padding: 23px 327px;
+}
+.footer__text{
+  margin: 15px 0 0 0;
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.04em;
+
+  color: rgba(0, 0, 0, 0.8);
+}
